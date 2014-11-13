@@ -6,6 +6,10 @@ This twitter wall is preloaded with the [Full Frontal JavaScript Conference](htt
 
 JavaScript customisation happens in `config.js` and style customisations in `custom.css`.
 
+## Also available as a service
+
+If setting this up yourself is tricky or too much work, or even beyond your skill (I appreciate not everyone who runs a conference is going to be happy to code too), we're offering a full service with similar (but more) functionality at http://confwall.com. Please check it out - also available for free to free events.
+
 ## Running the wall
 
 Due to Twitter API 1.1 changes, the twitter wall requires a Twitter API proxy. The proxy allows you to make requests to Twitter's API from the browser. If you're a Node user, you can use Left Logic's [twitter-proxy](https://github.com/leftlogic/twitter-proxy). Whatever proxy you choose to use, you need to tell the wall about it. To do so, modify the `baseUrl` in config.js.
