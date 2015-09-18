@@ -1,12 +1,12 @@
 var config = {
   // Twitter API (Proxy) URL
-  baseUrl: 'http://localhost:7890',
+  baseUrl: 'https://googledrive.com/host/0B6GkLMU9sHmLZUMyaWVWUnM3V0U/',
 
-  debug: false,
+  debug: true,
   title: 'Twitter wall built by @rem',
 
-  search: 'from:@fullfrontalconf OR @fullfrontalconf OR #fullfrontalconf OR #fullfrontal2011 OR full-frontal.org OR #fullfrontal11',
-  list: 'fullfrontalconf/delegates11', // optional, just comment it out if you don't want it
+  search: '#altc', // 'from:@fullfrontalconf OR @fullfrontalconf OR #fullfrontalconf OR #fullfrontal2011 OR full-frontal.org OR #fullfrontal11',
+  list: 'fullfrontalconf/delegates11', // mhawksey - not implemented in this example 
 
   timings: {
     showNextScheduleEarlyBy: '5m', // show the next schedule 10 minutes early

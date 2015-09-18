@@ -360,8 +360,8 @@ function init() {
 
   if (config.debug) {
     twitterlib.debug({
-      'list': '../history/data/list%page%.json?callback=callback',
-      'search': '../history/data/search%page%.json?callback=callback'
+      'list': 'history/data/list.json?callback=callback',
+      'search': 'history/data/search.json?callback=callback'
     });
   }
 
